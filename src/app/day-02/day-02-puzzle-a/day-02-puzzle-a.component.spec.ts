@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Day01PuzzleAComponent } from './day-01-puzzle-a.component';
+import { Day02PuzzleAComponent } from './day-02-puzzle-a.component';
 
 describe('Day01PuzzleAComponent', () => {
-  let component: Day01PuzzleAComponent;
-  let fixture: ComponentFixture<Day01PuzzleAComponent>;
+  let component: Day02PuzzleAComponent;
+  let fixture: ComponentFixture<Day02PuzzleAComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Day01PuzzleAComponent]
+      imports: [Day02PuzzleAComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(Day01PuzzleAComponent);
+    fixture = TestBed.createComponent(Day02PuzzleAComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
