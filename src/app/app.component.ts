@@ -2,15 +2,15 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 
-import { Day04PuzzleAComponent } from "./day-04/day-04-puzzle-a/day-04-puzzle-a.component";
-import { Day04PuzzleBComponent } from "./day-04/day-04-puzzle-b/day-04-puzzle-b.component";
+import { Day05PuzzleAComponent } from "./day-05/day-05-puzzle-a/day-05-puzzle-a.component";
+import { Day05PuzzleBComponent } from "./day-05/day-05-puzzle-b/day-05-puzzle-b.component";
 
 @Component({
     selector: 'app-root',
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.sass',
-    imports: [CommonModule, RouterOutlet, Day04PuzzleAComponent, Day04PuzzleBComponent]
+    imports: [CommonModule, RouterOutlet, Day05PuzzleAComponent, Day05PuzzleBComponent]
 })
 export class AppComponent {
   title = 'advent-of-code-2023';
