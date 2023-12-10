@@ -1,21 +1,5 @@
 import { Injectable } from '@angular/core';
 
-class Node {
-  id: string;
-  left: string;
-  right: string;
-
-  constructor(
-    id: string,
-    left: string,
-    right: string
-  ) {
-    this.id = id;
-    this.left = left;
-    this.right = right;
-  }
-}
-
 @Injectable({
   providedIn: 'root'
 })
